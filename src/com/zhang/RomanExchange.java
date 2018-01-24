@@ -83,7 +83,7 @@ public class RomanExchange {
 							String.format("The romans Symbol char:{0} not allowed repeated", curr.getSymbol()));
 				}
 				
-				int repeatedCnt = 2;
+				int repeatedCnt = 2; 
 				for (int j = i + 2; j < symbolArray.length; j++) {
 					
 					if (symbolArray[j] != curr.getSymbol()) {
